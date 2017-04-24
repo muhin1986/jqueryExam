@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style type="text/css">
+	body{background-color: red;}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+	<div class="col-sm-3 col-xs-12"></div>
+	<div class="col-sm-6 col-xs-12">
+		<div class="login-area">
+		<img src="img/ok.png" class="img-responsive ok">
+				<div class="login-form">
+
+					<div class="alert-msg">
+						<div class="alert alert-success alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Success!</strong> Login Successful.
+						</div>
+						<div id="common-alert" class="alert alert-danger alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Error!</strong> Field must not be empty.
+						</div>
+						<div id="name-alert" class="alert alert-danger alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Error!</strong> Username must be minimum 4 characters long
+						</div>
+
+						<div id="pass-alert" class="alert alert-danger alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Error!</strong> Password must be minimum 5 characters long
+						</div>
+
+					</div><!-- /.alert -->
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="username">Username</label>
+							<input type="text" id="username" class="form-control">
+						</div>
+					</div>
+
+
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" id="password" class="form-control">
+						</div>
+					</div>
+
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<button class="btn pull-left" id="reset">Reset</button>
+							<button class="btn btn-success pull-right" id="login">Login</button>
+						</div>
+					</div>
+
+
+
+				</div>
+	</div>
+	</div>
+	<div class="col-sm-3 col-xs-12"></div>
+</div>
+
+</div>
+
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

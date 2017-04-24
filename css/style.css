@@ -1,0 +1,21 @@
+.login-form{margin: auto;width: 50%;}
+.login-area{margin-top: 20%;}
+.ok{margin: auto;width: 40%;}
+.sliders {
+    margin-top: 26px;
+}
+footer {
+    background-color: #96baca;
+    border: 3px solid #0ebfeb;
+}
+.count{color: white;}
+label{color:#11ff00;}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.parallax-window1 {
+    min-height: 400px;
+    background: transparent;
+}
+.muhin{margin-top: 6%;}
